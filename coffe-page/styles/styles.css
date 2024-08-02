@@ -20,7 +20,10 @@
     /* Site Max-Width */
     --site-max-width: 1300px;
 }
-
+::selection {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
 html {
     scroll-behavior: smooth;
 }
